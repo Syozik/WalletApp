@@ -1,0 +1,108 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "type": "credit",
+      "date": "12-17-2024",
+      "description": "Card number used",
+      "amount": 14.06,
+      "transactionName": "Apple",
+      "pending": true,
+      "person": "Diana",
+      "icon": "apple"
+    },
+    {
+      "id": 2,
+      "type": "payment",
+      "date": "12-16-2024",
+      "amount": 174,
+      "transactionName": "Payment",
+      "description": "From JPMorgan Chase Bank National Association",
+      "pending": false,
+      "icon": "payment"
+    },
+    {
+      "id": 3,
+      "type": "credit",
+      "date": "12-16-2024",
+      "amount": 3.24,
+      "transactionName": "Apple",
+      "description": "Card number used",
+      "pending": false,
+      "person": "Diana",
+      "icon": "apple"
+    },
+    {
+      "id": 4,
+      "type": "payment",
+      "date": "12-14-2024",
+      "amount": 99.71,
+      "transactionName": "Payment",
+      "description": "From JPMorgan Chase Bank National Association",
+      "pending": false,
+      "icon": "payment"
+    },
+    {
+      "id": 5,
+      "type": "payment",
+      "date": "12-13-2024",
+      "amount": 73.58,
+      "transactionName": "Payment",
+      "description": "From JPMorgan Chase Bank National Association",
+      "pending": false,
+      "icon": "payment"
+    },
+    {
+      "id": 6,
+      "type": "credit",
+      "date": "12-09-2024",
+      "amount": 21.61,
+      "transactionName": "IKEA",
+      "description": "Round Rock, TX",
+      "pending": false,
+      "icon": "ikea"
+    },
+    {
+      "id": 7,
+      "type": "credit",
+      "date": "12-09-2024",
+      "amount": 73.58,
+      "transactionName": "Target",
+      "description": "Cedar Park, TX",
+      "pending": false,
+      "icon": "target"
+    },
+    {
+      "id": 8,
+      "type": "credit",
+      "date": "12-08-2024",
+      "amount": 12.99,
+      "transactionName": "McDonald's",
+      "description": "Cedar Park, TX",
+      "pending": false,
+      "person": "Victor",
+      "icon": "mcdonalds"
+    },
+    {
+      "id": 9,
+      "type": "payment",
+      "date": "12-08-2024",
+      "amount": 153.21,
+      "transactionName": "Payment",
+      "description": "From selling a MacBook Pro on Facebook Marketplace",
+      "pending": false,
+      "icon": "facebook"
+    },
+    {
+      "id": 10,
+      "type": "credit",
+      "date": "12-08-2024",
+      "amount": 11.21,
+      "transactionName": "Apple",
+      "description": "Card number used",
+      "pending": false,
+      "person": "Victor",
+      "icon": "apple"
+    }
+  ]
+}

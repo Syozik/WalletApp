@@ -1,0 +1,63 @@
+.transaction {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1.5fr;
+  gap: 10px;
+  align-items: start;
+  height: 80px;
+}
+
+.transaction-icon {
+  font-size: 2.6rem;
+  background-color: rgb(61, 60, 60);
+  border-radius: 8px;
+  padding: 5px;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-icon > i {
+  color: white;
+}
+
+.transaction-name {
+  font-weight: bold;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.transaction-description {
+  color: grey;
+}
+.transaction-name-date {
+  color: grey;
+}
+
+.amount {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.arrow-button {
+  margin-top: -8px;
+  font-size: 1.5rem;
+  align-self: flex-start;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: grey;
+}
+
+.transaction:hover .arrow-button {
+  color: black;
+}
+
+.transaction:hover {
+  cursor: pointer;
+}

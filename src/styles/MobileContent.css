@@ -1,0 +1,51 @@
+.balances{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.balances>*{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 12px;
+}
+
+.balances #payment{
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.transactions-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.payment-icon{
+    font-size: 1.5rem;
+    margin-top: auto;
+    margin-left: auto;
+    padding: 5px;
+    background-color: rgb(238,238,239);
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+}
