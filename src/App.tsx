@@ -3,7 +3,7 @@ import "./styles/App.css";
 import DesktopContent from "./DesktopContent";
 import MobileContent from "./MobileContent";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import TransactionPage from "./TransactionPage"; // Assuming you have this page for detailed view
+import TransactionPage from "./TransactionPage"; 
 
 function App(): JSX.Element {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
