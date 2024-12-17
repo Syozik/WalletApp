@@ -5,6 +5,10 @@
   align-items: start;
   height: 80px;
 }
+.transaction:not(:last-child){
+    border-bottom: 1px solid rgb(226, 224, 224);
+    margin-top: 10px;
+}
 
 .transaction-icon {
   font-size: 2.6rem;
