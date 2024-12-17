@@ -24,7 +24,11 @@ export default function TransactionPage(): JSX.Element {
   };
 
   useEffect(() => {
-    getTransactions(Number(id)).then(setTransaction);
+    getTransactions(Number(id)).then((result) => {
+      if (!Array.isArray(result)) {
+        setTransaction(result);
+      }
+    });
   }, [id]);
 
   return (

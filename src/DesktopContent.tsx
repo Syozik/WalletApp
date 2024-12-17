@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function DesktopContent(): JSX.Element {
   return (
     <div className="desktop-content">

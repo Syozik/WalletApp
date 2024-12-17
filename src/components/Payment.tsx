@@ -1,8 +1,6 @@
-import { useState } from "react";
-
 export default function Payment() {
-  const [paymentPaid, setPaymentPaid] = useState(true);
 
+  const paymentPaid = true;
   return (
     <div id="payment">
       <div>{paymentPaid ? "No Payment Due" : "Payment Due"}</div>

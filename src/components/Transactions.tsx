@@ -7,14 +7,18 @@ export default function Transactions() {
   const [transactions, setTransactions] = useState<TransactionType[]>([]);
 
   useEffect(() => {
-    getTransactions(undefined).then(setTransactions);
+    getTransactions(undefined).then((result) => {
+      if (Array.isArray(result)) {
+        setTransactions(result);
+      }
+    });
   }, []);
 
   return (
     <div className="transactions">
       <div className="transactions-list">
         {transactions.map((transaction: TransactionType) => (
-          <Transaction transaction={transaction} key={transaction.id}/>
+          <Transaction transaction={transaction} key={transaction.id} />
         ))}
       </div>
     </div>

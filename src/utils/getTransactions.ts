@@ -1,6 +1,6 @@
 import { TransactionType } from "../types/json";
 
-export default function getTransactions(id: number | undefined): Promise<TransactionType[]> {
+export default function getTransactions(id?: number): Promise<TransactionType[] | TransactionType> {
   return fetch("../../public/transactions.json")
     .then((response) => response.json())
     .then((data) => {
